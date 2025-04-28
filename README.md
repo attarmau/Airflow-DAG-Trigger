@@ -22,7 +22,7 @@ Change the dag_id in trigger.py to match the dag_id of the ur own DAG (e.g., "my
 - Define the DAG with tasks that u want
 - The dag_id in their DAG file must match the dag_id used in trigger.py
 
-## ➡️ How You Can Trigger Your Own DAG
+## ➡️ How to Trigger your Own DAG
 - Place the DAG file (e.g., my_custom_dag.py) in the dags/ folder
 - Use the existing trigger.py script to manually trigger it
 ```
