@@ -28,7 +28,7 @@ Change the dag_id in trigger.py to match the dag_id of the ur own DAG (e.g., "my
 ```
 dag_id = "my_custom_dag"  # Replace with your own DAG id
 ```
-After that, running `trigger.py` will manually trigger their DAG.
+After that, running `trigger.py` will manually trigger the DAG.
 
 ### Step 3: Run the Manual Trigger
 
