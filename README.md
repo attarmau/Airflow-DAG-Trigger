@@ -6,12 +6,12 @@ The goal is to add manual triggering functionality in Airflow, where the trigger
 
 For further details, follow the specific steps outlined below.
 
-## Needed File 1: test_manual_trigger.py (The DAG)
+##  📃 Needed File 1: test_manual_trigger.py (The DAG)
 This is the DAG definition file that defines how the DAG behaves when triggered. 
 
 This DAG will not run on its own; it only runs when manually triggered. The task in the DAG prints the time when it was manually triggered.
 
-## Needed file 2: trigger.py (Manually Trigger the DAG)
+## 📃 Needed file 2: trigger.py (Manually Trigger the DAG)
 This is the script that triggers the DAG. When you run trigger.py, it will use Airflow's API to manually trigger the test_manual_trigger_dag
 
 ## How to Use the Trigger in Your Own DAG
