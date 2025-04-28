@@ -14,7 +14,7 @@ This DAG will not run on its own; it only runs when manually triggered. The task
 ## 📃 Needed file 2: trigger.py (Manually Trigger the DAG)
 This is the script that triggers the DAG. When you run trigger.py, it will use Airflow's API to manually trigger the test_manual_trigger_dag
 
-## How to Use the Trigger in Your Own DAG
+## 💡 How to Use the Trigger in Your Own DAG
 ### Step 1: Keep the trigger.py file as it is to manually trigger any DAG
 Change the dag_id in trigger.py to match the dag_id of the ur own DAG (e.g., "my_custom_dag")
 
