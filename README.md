@@ -2,7 +2,9 @@
 
 ## Objective
 
-The goal is to add manual triggering functionality in Airflow, where the trigger prints the time when the DAG is manually triggered. To achieve this, I have designed the ’test_manual_trigger_dag.py', which is a simple sample DAG created to test the manual triggering functionality in Airflow. 
+The goal is to add manual triggering functionality in Airflow, where the trigger prints the time when the DAG is manually triggered. It is designed to run within a Docker-based environment using Airflow 2.x. 
+
+To achieve this, I have designed the ’test_manual_trigger_dag.py', which is a simple sample DAG created to test the manual triggering functionality in Airflow. 
 
 For further details, follow the specific steps outlined below.
 
