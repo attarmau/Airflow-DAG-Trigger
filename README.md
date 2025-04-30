@@ -11,6 +11,7 @@ This is the DAG definition file that defines how the DAG behaves when triggered.
 
 This DAG will not run on its own; it only runs when manually triggered. The task in the DAG prints the time when it was manually triggered.
 
+Place this DAG file in the dags/ folder.
 ## Step 1: Start Airflow 2.6.0 on Docker 
 ```
 cd airflow
