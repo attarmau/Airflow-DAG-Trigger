@@ -4,6 +4,9 @@
 
 This repository demonstrates how to add manual triggering functionality in Airflow, where the trigger prints the time when the DAG is manually triggered. It is designed to run within a Docker-based environment using Airflow 2.x. 
 
+⚠️ Note on Airflow 3.0.0 Compatibility
+As of now, Apache Airflow has released version 3.0.0, but it is not yet fully stable or widely supported in Docker-based environments. Some plugins, operators, or Docker images may still have compatibility issues. Therefore, this project uses Airflow 2.6.0, which is a more stable and tested version for Docker deployment. If you're planning to run Airflow in Docker, sticking with 2.6.0 is currently the safer and more reliable choice.
+
 To achieve this, I have designed the ’test_manual_trigger_dag.py', which is a simple sample DAG created to test the manual triggering functionality in Airflow. 
 
 For further details, follow the specific steps outlined below.
