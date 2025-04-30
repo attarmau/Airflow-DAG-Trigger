@@ -18,6 +18,7 @@ cd airflow
 ```
 docker-compose run airflow-webserver airflow db init
 ```
+Create an Airflow admin user via the CLI, which is required the first time you're setting up Airflow
 ```
 docker-compose run airflow-webserver airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com
 ```
