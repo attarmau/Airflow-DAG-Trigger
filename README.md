@@ -11,6 +11,22 @@ This is the DAG definition file that defines how the DAG behaves when triggered.
 
 This DAG will not run on its own; it only runs when manually triggered. The task in the DAG prints the time when it was manually triggered.
 
+## Step 1: 
+```
+cd airflow
+```
+```
+docker-compose run airflow-webserver airflow db init
+```
+```
+docker-compose run airflow-webserver airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com
+```
+![Screenshot 2025-04-30 161450](https://github.com/user-attachments/assets/aa1dc9ab-5a59-435d-a455-1a3211e43798)
+
+```
+python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
+```
+
 ## 📃 Needed file 2: trigger.py (Manually Trigger the DAG)
 This is the script that triggers the DAG. When you run trigger.py, it will use Airflow's API to manually trigger the test_manual_trigger_dag
 
