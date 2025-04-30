@@ -23,6 +23,7 @@ docker-compose run airflow-webserver airflow users create --username admin --pas
 ```
 ![Screenshot 2025-04-30 161450](https://github.com/user-attachments/assets/aa1dc9ab-5a59-435d-a455-1a3211e43798)
 
+Generate a Fernet key, which is required by Apache Airflow for encrypting and decrypting sensitive data in its metadata database
 ```
 python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
 ```
