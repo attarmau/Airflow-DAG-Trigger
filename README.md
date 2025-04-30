@@ -7,9 +7,7 @@ The goal is to add manual triggering functionality in Airflow, where the trigger
 For further details, follow the specific steps outlined below.
 
 ##  📃 Needed File 1: test_manual_trigger.py (The DAG)
-This is the DAG definition file that defines how the DAG behaves when triggered. 
-
-This DAG will not run on its own; it only runs when manually triggered. The task in the DAG prints the time when it was manually triggered.
+This is the DAG definition file that defines how the DAG behaves when triggered. This DAG will not run on its own; it only runs when manually triggered. The task in the DAG prints the time when it was manually triggered.
 
 Place this DAG file in the dags/ folder.
 ## Step 1: Start Airflow 2.6.0 on Docker 
