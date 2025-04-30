@@ -84,8 +84,7 @@ This will trigger the `test_manual_trigger_dag` (or their custom DAG) and print 
 
 
 
-# Please ignore the Testing from my Side Below
-
+# Self-testing steps
 First, make sure that the Airflow services are up and running. This can be done using the following commands:
 
 ```
