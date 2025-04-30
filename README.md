@@ -31,11 +31,15 @@ python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().d
 ```
 ![Screenshot 2025-04-30 160918](https://github.com/user-attachments/assets/857db5c4-15a7-43a2-a038-574f7b88dc4a)
 
-## Step 2: Log in Arflow Webserver
+## Step 2: Log in Airflow Webserver: http://localhost:8080/home
 
 ![Screenshot 2025-04-30 162322](https://github.com/user-attachments/assets/01c2edba-84d3-4fd9-881c-1c6c980cd4f5)
 
+## Step 3: Test the Trigger
 
+![Screenshot 2025-04-30 161619](https://github.com/user-attachments/assets/f593fb6c-1a85-4b1c-936a-53187911ee61)
+
+# If manually trigger...
 ## 📃 Needed file 2: trigger.py (Manually Trigger the DAG)
 This is the script that triggers the DAG. When you run trigger.py, it will use Airflow's API to manually trigger the test_manual_trigger_dag
 
