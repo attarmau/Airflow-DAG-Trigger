@@ -27,6 +27,7 @@ Generate a Fernet key, which is required by Apache Airflow for encrypting and de
 ```
 python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
 ```
+Then add your generated key in the .env file~
 ```
  docker-compose up -d
 ```
