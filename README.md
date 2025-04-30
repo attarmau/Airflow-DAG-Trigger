@@ -22,6 +22,7 @@ Create an Airflow admin user via the CLI, which is required the first time you'r
 ```
 docker-compose run airflow-webserver airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com
 ```
+Under this setting, both the account and password to login your airflow web UI are 'admin'. (You can change them accordingly)
 ![Screenshot 2025-04-30 161450](https://github.com/user-attachments/assets/aa1dc9ab-5a59-435d-a455-1a3211e43798)
 
 Generate a Fernet key, which is required by Apache Airflow for encrypting and decrypting sensitive data in its metadata database
