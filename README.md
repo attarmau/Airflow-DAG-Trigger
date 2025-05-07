@@ -35,7 +35,7 @@ python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().d
 ```
 Then add your generated key in the .env file~
 ```
- docker-compose up -d
+ docker compose up -d
 ```
 ![Screenshot 2025-04-30 160918](https://github.com/user-attachments/assets/857db5c4-15a7-43a2-a038-574f7b88dc4a)
 
